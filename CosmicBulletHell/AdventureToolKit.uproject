@@ -1,0 +1,14 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "5.2",
+	"Category": "",
+	"Description": "",
+	"Plugins": [],
+	"TargetPlatforms": [
+		"AllDesktop",
+		"IOS",
+		"WindowsNoEditor",
+		"MacNoEditor",
+		"Windows"
+	]
+}
