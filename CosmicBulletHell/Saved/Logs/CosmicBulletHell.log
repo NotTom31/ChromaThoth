@@ -5989,3 +5989,270 @@ TileMap
 [2023.10.20-09.38.50:808][882]LogContentValidation: Display: Validating /Game/GridMovement/Ground.Ground_C /Game/Maps/TilemapTest.TilemapTest:PersistentLevel.Ground_C_UAID_18C04D8F0AB94FB401_2101066219
 [2023.10.20-09.38.50:808][882]LogContentValidation: Display: Validating /Game/GridMovement/Ground.Ground_C /Game/Maps/TilemapTest.TilemapTest:PersistentLevel.Ground_C_UAID_18C04D8F0AB94FB401_2101065218
 [2023.10.20-09.38.50:808][882]LogContentValidation: Display: Validating /Game/GridMovement/Wall.Wall_C /Game/Maps/TilemapTest.TilemapTest:PersistentLevel.Wall_C_UAID_18C04D8F0AB950B401_1094572420
+[2023.10.20-09.40.12:286][682]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.20-09.40.12:295][682]LogContentBundle: [TilemapTest(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.10.20-09.40.12:301][682]LogWorldPartition: Display: GenerateStreaming started...
+[2023.10.20-09.40.12:301][682]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.10.20-09.40.12:301][682]LogWorldPartition: Display: GetPartitionedActors took 35 us (total: 338 us)
+[2023.10.20-09.40.12:430][682]LogWorldPartition: Display: GenerateStreaming took 129 ms (total: 1.81 sec)
+[2023.10.20-09.40.12:431][682]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.20-09.40.12:431][682]PIE: New page: PIE session: TilemapTest (Oct 19, 2023, 7:40:12 PM)
+[2023.10.20-09.40.12:431][682]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TilemapTest
+[2023.10.20-09.40.12:453][682]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021856s)
+[2023.10.20-09.40.12:453][682]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TilemapTest.TilemapTest to /Game/Maps/UEDPIE_0_TilemapTest.TilemapTest (0.021882s)
+[2023.10.20-09.40.12:453][682]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.20-09.40.12:453][682]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.20-09.40.12:454][682]LogAIModule: Creating AISystem for world TilemapTest
+[2023.10.20-09.40.12:454][682]LogWorldPartition: ULevel::OnLevelLoaded(TilemapTest)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.10.20-09.40.12:454][682]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.20-09.40.12:454][682]LogWorldPartition: UWorldPartition::Initialize(Asset=TilemapTest, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.10.20-09.40.12:459][682]LogContentBundle: [TilemapTest(Standalone)] Creating new contrainer.
+[2023.10.20-09.40.12:459][682]LogWorldPartition: Display: WorldPartition initialize took 4 ms (total: 791 ms)
+[2023.10.20-09.40.12:459][682]LogPlayLevel: PIE: World Init took: (0.005797s)
+[2023.10.20-09.40.12:476][682]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2023.10.20-09.40.12:478][682]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2023.10.20-09.40.12:478][682]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.20-09.40.12:478][682]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.20-09.40.12:478][682]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.20-09.40.12:478][682]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.20-09.40.12:478][682]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.10.20-09.40.12:478][682]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.10.20-09.40.12:478][682]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.10.20-09.40.12:478][682]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.20-09.40.12:478][682]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.20-09.40.12:478][682]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.20-09.40.12:478][682]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.20-09.40.12:480][682]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.20-09.40.12:498][682]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2023.10.20-09.40.12:499][682]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.20-09.40.12:499][682]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.20-09.40.12:499][682]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.20-09.40.12:500][682]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2023.10.20-09.40.12:500][682]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2023.10.20-09.40.12:501][682]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2023.10.20-09.40.12:501][682]LogInit: FAudioDevice initialized with ID 13.
+[2023.10.20-09.40.12:501][682]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2023.10.20-09.40.12:501][682]LogAudio: Display: Audio Device (ID: 13) registered with world 'TilemapTest'.
+[2023.10.20-09.40.12:501][682]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2023.10.20-09.40.12:503][682]LogLoad: Game class is 'TileMovement_GM_C'
+[2023.10.20-09.40.12:507][682]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TilemapTest.TilemapTest up for play (max tick rate 0) at 2023.10.20-02.40.12
+[2023.10.20-09.40.12:507][682]LogWorld: Bringing up level for play took: 0.004051
+[2023.10.20-09.40.12:509][682]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2023.10.20-09.40.12:510][682]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(40), CellsToLoad(0), CellsToUnload(0)
+[2023.10.20-09.40.12:510][682]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-370.000 Y=405.000 Z=770.000,P=0.000000 Y=0.000000 R=-0.000000
+[2023.10.20-09.40.12:512][682]LogStreaming: Display: FlushAsyncLoading(-1): 40 QueuedPackages, 0 AsyncPackages
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/F/06/3USFJ18SX239JUSFAPWIGN.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/E/KR/VD03JINTP7XCY20OKXTKLU.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/E/IC/VWYSV37JCUL444SPS8P9FA.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/E/25/7K1XEHV1NN89SF0VXCVJJ0.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/E/24/2WLHCRY0C2HLXTJ4H8DV5P.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/D/VO/Z77SYEGCZARYRT7RWT96E8.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/D/S9/FIPW8ON4SGFDJBP3T1896G.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/D/S9/UB8MC7J6UOQMYOCN7DYO7N.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/D/JW/VZ6UBB6W2QGQ5TLS0YTKV8.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/D/GD/I0JJN29Y7NRKXOEKELXZSD.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/D/4L/EAKK2PFQAN2842K577EU1V.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/D/19/X8PS05H4ZPLKSCOH4O77OG.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/C/JG/UW4LUHEP9TVLXCHDEUJ4MA.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/C/IN/39O32EYCGYDL2789G381PC.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/C/70/S2B1004IVAV6MI5P0GI3MG.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/B/Z1/NIOHD4BNO9IPD03DRJOKS7.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/B/XW/837P7220PTSNBFD2ESD4L3.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/B/H0/1XDG54L7JE4DKR0LU5BTX1.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/B/EB/RHNZ2G14LXXS9FU2D6P4BA.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/B/86/7RMIYISIZSOSPAED0SN11V.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/A/SI/FZ54IXBMKRRNPABYJ5HL61.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/A/KO/REJX7IDSLHKSGFEPSP2HYQ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/9/PM/8YEHQYI6AM3JHFLMI2QFJ2.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/9/MI/2HAJ177BRP7JASN78P1SOD.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/9/E0/OY4IR4IBQH1BBJW4XEJ71E.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/9/A3/O6XQMXWXG2N1HEQGO7SRG3.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/9/37/L579ETQGD2BXWXIXPLRICD.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/9/2F/L1DRCG5I9WTW1WE5L01X9B.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/8/MW/TY1B8IKHOVZZA4NLKYLWKL.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/8/L7/LHXCGLKL0GWE10T9UAADIY.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/8/ID/GFDVNLUCH1SMFNYR638PC6.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/8/GY/1QYFWDDAWGSDDXL7BAXYLD.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/8/F4/CQABGT6OI619G0RXVT64H6.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/8/9P/TBUBE814UDQ6AF6RJUWNVM.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/7/W1/9DSUVQBIDQYE30782MNQ43.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/7/UU/QAZ2NVLJOYIWRWVOTCIS3B.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/7/FB/JLP7YX9U8626OWJYTM8SNY.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/7/EP/CDKZW8VBER23I9Y3SC6LYV.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/6/JG/F82V42TYFYRNHFF7NS3UPD.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/6/A2/SBBG0U26O63B5ORRNM6X3T.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/5/YP/3KV9B920H426N87YVCCQZX.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/5/WY/YJTRPG9V46CL7FTNIHSDU4.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/5/KY/C250JIS6UCBKQPBWDC405H.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/5/HP/87KSV6HRNIR45D5FND87LR.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/5/GS/BLJ8ARZLJL0LP2S5QUUJKV.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/5/G1/8LE3WMPTTSGHE636DPERD8.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/5/2L/GS1YZAC375N90Z7SEX1A1V.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/4/ZE/BRN2DGQHJBGFKTFMIU2D0U.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/4/XL/BDVFX0XY66RL5K5WGOI1T1.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/4/TM/FZUEZPIZKDA7EITBW4RTQ2.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/4/97/HK0CYENJS3FAOOVB8SKFEJ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/3/AZ/YFOC7TTFI62HAYASQFJE3P.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/3/0K/AL9WCR3LM7S4U8IBX3XLVD.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/2/YL/A3RCCA1BC1ZS5TS8Z4JV5L.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/2/XU/7GGLNQCEZ8AXKGA7WLIN9H.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/2/RP/4Z37BOEC32YZW4YOLIY2QU.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/2/OO/OTL7FQFS4JF4SCI13O5Q8V.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/2/J0/SC5JGLNI20GF8UAEK9HXOR.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/2/5M/KCFTRPTUHPDBY61465TQRD.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/1/WD/G40OUW0SDKI6X4VPRCRYK6.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/1/GO/3WFSFWUI3YXQY4724NSVB9.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/0/TE/C15JC9LEIV94RZDWIWX0GR.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:652][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/0/ST/8QGU9AVI37XQ71MNR4TCDO.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:653][682]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Maps/TilemapTest/0/KB/722C0I65K05Y4QHWCQ88KC.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2023.10.20-09.40.12:685][682]PIE: Server logged in
+[2023.10.20-09.40.12:685][682]PIE: Play in editor total start time 0.39 seconds.
+[2023.10.20-09.40.12:765][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:765][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:766][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:766][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:766][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:767][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:767][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:767][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:767][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:768][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:768][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:768][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:769][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:769][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:769][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:769][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:770][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:770][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:770][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:771][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:771][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:771][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:772][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:772][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:772][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:773][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:773][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:773][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:774][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:774][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:774][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:775][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:775][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:775][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:776][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:776][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:776][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:777][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:777][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:777][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:778][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:778][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:778][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:779][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:779][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:779][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:780][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:780][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:780][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:781][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:781][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:781][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:782][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:782][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:783][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:783][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:783][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:784][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:814][683]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:814][683]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:814][683]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:815][683]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:815][683]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:815][683]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:815][683]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:816][683]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:816][683]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:816][683]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:817][683]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:817][683]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:817][683]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:818][683]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:818][683]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:818][683]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:818][683]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:819][683]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:819][683]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:819][683]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:820][683]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:820][683]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:820][683]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:821][683]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:821][683]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:821][683]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:822][683]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:822][683]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:822][683]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:823][683]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:823][683]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:824][683]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:824][683]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:824][683]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:825][683]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:825][683]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:825][683]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:826][683]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:827][683]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:827][683]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:828][683]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:828][683]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:828][683]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:829][683]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:829][683]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:830][683]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:830][683]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:830][683]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:831][683]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:831][683]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:831][683]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:832][683]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:832][683]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:832][683]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:833][683]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:833][683]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:834][683]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.12:834][683]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.13:227][724]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.33:619][114]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.20-09.40.33:619][114]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_TilemapTest
+[2023.10.20-09.40.33:635][114]LogWorld: UWorld::CleanupWorld for TilemapTest, bSessionEnded=true, bCleanupResources=true
+[2023.10.20-09.40.33:635][114]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.20-09.40.33:635][114]LogContentBundle: [TilemapTest(Standalone)] Deleting container.
+[2023.10.20-09.40.33:641][114]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.20-09.40.33:646][114]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.20-09.40.33:668][114]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.20-09.40.33:669][114]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2023.10.20-09.40.33:669][114]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2023.10.20-09.40.33:670][114]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2023.10.20-09.40.33:686][114]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2023.10.20-09.40.33:717][114]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.33:778][115]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2023.10.20-09.40.33:789][115]LogViewport: Scene viewport resized to 442x249, mode Windowed.
+[2023.10.20-09.40.33:818][115]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.10.20-09.40.43:891][942]LogContentBrowser: Attempting asset rename: Ice_MAT -> Ice_MAT
+[2023.10.20-09.40.56:376][936]LogContentBrowser: Attempting asset rename: Ice_MAT -> ground_MAT
+[2023.10.20-09.40.56:411][936]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.20-09.40.56:454][936]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GridMovement/Ground" FILE="../../../../../../Users/Tom/Documents/GitHub/Cosmic-Horror-Jam-II/CosmicBulletHell/Content/GridMovement/Ground.uasset" SILENT=true
+[2023.10.20-09.40.56:459][936]LogSavePackage: Moving output files for package: /Game/GridMovement/Ground
+[2023.10.20-09.40.56:459][936]LogSavePackage: Moving '../../../../../../Users/Tom/Documents/GitHub/Cosmic-Horror-Jam-II/CosmicBulletHell/Saved/GroundAA6CA8D5430C3D2EF691CD9302E97DA5.tmp' to '../../../../../../Users/Tom/Documents/GitHub/Cosmic-Horror-Jam-II/CosmicBulletHell/Content/GridMovement/Ground.uasset'
+[2023.10.20-09.40.56:461][936]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GridMovement/ground_MAT" FILE="../../../../../../Users/Tom/Documents/GitHub/Cosmic-Horror-Jam-II/CosmicBulletHell/Content/GridMovement/ground_MAT.uasset" SILENT=true
+[2023.10.20-09.40.56:462][936]LogSavePackage: Moving output files for package: /Game/GridMovement/ground_MAT
+[2023.10.20-09.40.56:462][936]LogSavePackage: Moving '../../../../../../Users/Tom/Documents/GitHub/Cosmic-Horror-Jam-II/CosmicBulletHell/Saved/ground_MAT8BC26A93479DBD7DA11886A16A73D406.tmp' to '../../../../../../Users/Tom/Documents/GitHub/Cosmic-Horror-Jam-II/CosmicBulletHell/Content/GridMovement/ground_MAT.uasset'
+[2023.10.20-09.40.56:469][936]LogFileHelpers: InternalPromptForCheckoutAndSave took 58 ms (total: 1.75 sec)
+[2023.10.20-09.40.56:495][936]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2023.10.20-09.40.56:514][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2023.10.20-09.40.56:529][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2023.10.20-09.40.56:533][936]AssetCheck: New page: Asset Save: multiple assets
+[2023.10.20-09.40.56:533][936]LogContentValidation: Display: Validating /Script/Engine.Material /Game/GridMovement/ground_MAT.ground_MAT
+[2023.10.20-09.40.56:533][936]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/GridMovement/Ground.Ground
