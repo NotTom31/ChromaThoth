@@ -19,11 +19,16 @@ APlayerControllerInputManager::APlayerControllerInputManager()
     LastInputTimeStamp = 0.0f;
 }
 
+APlayerControllerInputManager::~APlayerControllerInputManager()
+{
+    // Destructor logic here if needed
+}
+
 void APlayerControllerInputManager::InitializeInput()
 {
     if(PlayerInputComponent)
     {
-        // Bind input actions to their respective handlers.
+        // Bind input actions to their respective handlers
         BindInputActions();
         bIsInputInitialized = true;
     }
@@ -33,7 +38,7 @@ void APlayerControllerInputManager::ProcessInput(float DeltaTime)
 {
     if(bIsInputInitialized)
     {
-        // Update the time stamp of the last input event processed.
+        // Update the time stamp of the last input event processed
         UpdateLastInputTimeStamp(GetWorld()->GetTimeSeconds());
     }
 }
@@ -63,7 +68,6 @@ void APlayerControllerInputManager::HandleFire()
     // Assume logic to handle fire input here...
 }
 
-// Called when the game starts or when spawned
 void APlayerControllerInputManager::BeginPlay()
 {
     Super::BeginPlay();
@@ -72,11 +76,21 @@ void APlayerControllerInputManager::BeginPlay()
     InitializeInput();
 }
 
-// Called every frame
 void APlayerControllerInputManager::Tick(float DeltaTime)
 {
     Super::Tick(DeltaTime);
 
     // Optionally, process input every frame
     ProcessInput(DeltaTime);
+}
+
+void APlayerControllerInputManager::SetupPlayerInputComponent(UInputComponent* PlayerInputComp)
+{
+    Super::SetupPlayerInputComponent(PlayerInputComp);
+    
+    // Set the PlayerInputComponent property
+    PlayerInputComponent = PlayerInputComp;
+    
+    // Optionally, initialize input in SetupPlayerInputComponent
+    InitializeInput();
 }

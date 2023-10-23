@@ -1,66 +1,72 @@
-// Code flows like rivers,
-// Antropy's gift to the world,
-// Reuse, just cite source.
+    // Code flows like rivers,
+    // Antropy's gift to the world,
+    // Reuse, just cite source.
 
-#pragma once
+    #pragma once
 
-#include "CoreMinimal.h"
-#include "GameFramework/Actor.h"
-#include "Components/InputComponent.h"
-#include "PlayerControllerInputManager.generated.h"
+    #include "CoreMinimal.h"
+    #include "GameFramework/Actor.h"
+    #include "Components/InputComponent.h"
+    #include "PlayerControllerInputManager.generated.h"
 
-/**
- * A class responsible for managing player controller input events and behaviors within an Unreal Engine game project.
- */
-UCLASS(BlueprintSpawnableComponent)
-class YOURGAME_API APlayerControllerInputManager : public AActor
-{
-    GENERATED_BODY()
+    /**
+     * A class responsible for managing player controller input events and behaviors within an Unreal Engine game project.
+     */
+    UCLASS(BlueprintSpawnableComponent)
+    class YOURGAME_API APlayerControllerInputManager : public AActor
+    {
+        GENERATED_BODY()
 
-public:
-    // Constructor
-    APlayerControllerInputManager();
+    public:
+        // Constructor
+        APlayerControllerInputManager();
 
-    // Pointer to the input component associated with the player controller.
-    UPROPERTY(BlueprintReadWrite, Category = "Input")
-    UInputComponent* PlayerInputComponent;
+        // Destructor
+        virtual ~APlayerControllerInputManager();
 
-    // Initializes input for the player controller.
-    UFUNCTION(BlueprintCallable, Category = "Input")
-    void InitializeInput();
+        // Pointer to the input component associated with the player controller.
+        UPROPERTY(BlueprintReadWrite, Category = "Input")
+        UInputComponent* PlayerInputComponent;
 
-    // Processes player input events.
-    UFUNCTION(BlueprintCallable, Category = "Input")
-    void ProcessInput(float DeltaTime);
+        // Initializes input for the player controller.
+        UFUNCTION(BlueprintCallable, Category = "Input")
+        void InitializeInput();
 
-protected:
-    // Flag to check if input has been initialized.
-    UPROPERTY(BlueprintReadOnly, Category = "Input")
-    bool bIsInputInitialized;
+        // Processes player input events.
+        UFUNCTION(BlueprintCallable, Category = "Input")
+        void ProcessInput(float DeltaTime);
 
-    // Binds input actions to their respective handlers.
-    UFUNCTION(BlueprintCallable, Category = "Input")
-    void BindInputActions();
+    protected:
+        // Flag to check if input has been initialized.
+        UPROPERTY(BlueprintReadOnly, Category = "Input")
+        bool bIsInputInitialized;
 
-private:
-    // Time stamp of the last input event processed.
-    float LastInputTimeStamp;
+        // Binds input actions to their respective handlers.
+        UFUNCTION(BlueprintCallable, Category = "Input")
+        void BindInputActions();
 
-    // Updates the time stamp of the last input event processed.
-    void UpdateLastInputTimeStamp(float TimeStamp);
+    private:
+        // Time stamp of the last input event processed.
+        float LastInputTimeStamp;
 
-    // Handles the Jump action.
-    UFUNCTION()
-    void HandleJump();
+        // Updates the time stamp of the last input event processed.
+        void UpdateLastInputTimeStamp(float TimeStamp);
 
-    // Handles the Fire action.
-    UFUNCTION()
-    void HandleFire();
+        // Handles the Jump action.
+        UFUNCTION()
+        void HandleJump();
 
-public:
-    // Called when the game starts or when spawned
-    virtual void BeginPlay() override;
+        // Handles the Fire action.
+        UFUNCTION()
+        void HandleFire();
 
-    // Called every frame
-    virtual void Tick(float DeltaTime) override;
-};
+    public:
+        // Called when the game starts or when spawned
+        virtual void BeginPlay() override;
+
+        // Called every frame
+        virtual void Tick(float DeltaTime) override;
+
+        // Called to bind functionality to input
+        virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+    };
