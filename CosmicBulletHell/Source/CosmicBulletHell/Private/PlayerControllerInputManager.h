@@ -2,6 +2,9 @@
     // Antropy's gift to the world,
     // Reuse, just cite source.
 
+    // Code generated for the APlayerControllerInputManager class to manage
+    // Keyboard, Gamepad, and Touch screen input events within an Unreal Engine game project.
+
     #pragma once
 
     #include "CoreMinimal.h"
@@ -10,7 +13,7 @@
     #include "PlayerControllerInputManager.generated.h"
 
     /**
-     * A class responsible for managing player controller input events and behaviors within an Unreal Engine game project.
+     * A class responsible for managing Keyboard, Gamepad, and Touch screen input events within an Unreal Engine game project.
      */
     UCLASS(BlueprintSpawnableComponent)
     class YOURGAME_API APlayerControllerInputManager : public AActor
@@ -21,52 +24,24 @@
         // Constructor
         APlayerControllerInputManager();
 
-        // Destructor
-        virtual ~APlayerControllerInputManager();
-
-        // Pointer to the input component associated with the player controller.
+        // The input component associated with the player controller.
         UPROPERTY(BlueprintReadWrite, Category = "Input")
         UInputComponent* PlayerInputComponent;
 
-        // Initializes input for the player controller.
+        // Initializes input handling for Keyboard, Gamepad, and Touch screen.
         UFUNCTION(BlueprintCallable, Category = "Input")
         void InitializeInput();
 
-        // Processes player input events.
+        // Processes input events every frame.
         UFUNCTION(BlueprintCallable, Category = "Input")
         void ProcessInput(float DeltaTime);
 
-    protected:
-        // Flag to check if input has been initialized.
-        UPROPERTY(BlueprintReadOnly, Category = "Input")
-        bool bIsInputInitialized;
+        // Binds input actions and axes for Keyboard, Gamepad, and Touch screen.
+        void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent);
 
-        // Binds input actions to their respective handlers.
+    protected:
+        // Binds actions for Keyboard, Gamepad, and Touch screen to their respective handlers.
         UFUNCTION(BlueprintCallable, Category = "Input")
         void BindInputActions();
-
-    private:
-        // Time stamp of the last input event processed.
-        float LastInputTimeStamp;
-
-        // Updates the time stamp of the last input event processed.
-        void UpdateLastInputTimeStamp(float TimeStamp);
-
-        // Handles the Jump action.
-        UFUNCTION()
-        void HandleJump();
-
-        // Handles the Fire action.
-        UFUNCTION()
-        void HandleFire();
-
-    public:
-        // Called when the game starts or when spawned
-        virtual void BeginPlay() override;
-
-        // Called every frame
-        virtual void Tick(float DeltaTime) override;
-
-        // Called to bind functionality to input
-        virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
     };
+
