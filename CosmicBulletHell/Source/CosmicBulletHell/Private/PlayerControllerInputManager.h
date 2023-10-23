@@ -18,6 +18,9 @@ class YOURGAME_API APlayerControllerInputManager : public AActor
     GENERATED_BODY()
 
 public:
+    // Constructor
+    APlayerControllerInputManager();
+
     // Pointer to the input component associated with the player controller.
     UPROPERTY(BlueprintReadWrite, Category = "Input")
     UInputComponent* PlayerInputComponent;
@@ -45,4 +48,19 @@ private:
 
     // Updates the time stamp of the last input event processed.
     void UpdateLastInputTimeStamp(float TimeStamp);
+
+    // Handles the Jump action.
+    UFUNCTION()
+    void HandleJump();
+
+    // Handles the Fire action.
+    UFUNCTION()
+    void HandleFire();
+
+public:
+    // Called when the game starts or when spawned
+    virtual void BeginPlay() override;
+
+    // Called every frame
+    virtual void Tick(float DeltaTime) override;
 };
