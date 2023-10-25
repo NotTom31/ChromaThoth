@@ -1,0 +1,14 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\tom\\documents\\github\\cosmic-horror-jam-ii\\cosmicbullethell\\source\\cosmicbullethell\\cosmicbullethell.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\tom\\documents\\github\\cosmic-horror-jam-ii\\cosmicbullethell\\intermediate\\build\\win64\\x64\\cosmicbullethelleditor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "c:\\users\\tom\\documents\\github\\cosmic-horror-jam-ii\\cosmicbullethell\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\cosmicbullethell\\definitions.cosmicbullethell.h",
+            "c:\\users\\tom\\documents\\github\\cosmic-horror-jam-ii\\cosmicbullethell\\source\\cosmicbullethell\\cosmicbullethell.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

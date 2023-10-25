@@ -1,0 +1,34 @@
+﻿  Using bundled DotNet SDK version: 6.0.302
+  Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" CosmicBulletHellEditor Win64 Development -Project="C:\Users\Tom\Documents\GitHub\Cosmic-Horror-Jam-II\CosmicBulletHell\CosmicBulletHell.uproject" -WaitMutex -FromMsBuild -Rebuild
+  Log file: C:\Users\Tom\AppData\Local\UnrealBuildTool\Log.txt
+  Cleaning CosmicBulletHellEditor binaries...
+  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Tom\Documents\GitHub\Cosmic-Horror-Jam-II).
+  Creating makefile for CosmicBulletHellEditor (no existing makefile)
+  Parsing headers for CosmicBulletHellEditor
+    Running Internal UnrealHeaderTool C:\Users\Tom\Documents\GitHub\Cosmic-Horror-Jam-II\CosmicBulletHell\CosmicBulletHell.uproject C:\Users\Tom\Documents\GitHub\Cosmic-Horror-Jam-II\CosmicBulletHell\Intermediate\Build\Win64\CosmicBulletHellEditor\Development\CosmicBulletHellEditor.uhtmanifest -WarningsAsErrors -installed
+  Total of 0 written
+  Reflection code generated for CosmicBulletHellEditor in 0.9905707 seconds
+  Building CosmicBulletHellEditor...
+  Using Visual Studio 2019 14.29.30152 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Notice: Visual Studio 2019 will no longer be supported for the installed engine in UE 5.3. Compiling code for Microsoft platforms will require Visual Studio 2022 in UE 5.4 and beyond.
+  [Upgrade]
+  [Upgrade] Using backward-compatible include order. The latest version of UE has changed the order of includes, which may require code changes. The current setting is:
+  [Upgrade]     IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_0
+  [Upgrade] Suppress this message by setting 'IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_2;' in CosmicBulletHellEditor.Target.cs.
+  [Upgrade] Alternatively you can set this to 'EngineIncludeOrderVersion.Latest' to always use the latest include order. This will potentially cause compile errors when integrating new versions of the engine.
+  [Upgrade]
+  Determining max actions to execute in parallel (6 physical cores, 12 logical cores)
+    Executing up to 6 processes, one per physical core
+    Requested 1.5 GB free memory per action, 3.98 GB available: limiting max parallel actions to 2
+  Building 7 actions with 2 processes...
+  [1/7] Resource Default.rc2
+  [2/7] Compile [x64] SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.cpp
+  [3/7] Compile [x64] MyClass.cpp
+  [4/7] Compile [x64] CosmicBulletHell.cpp
+  [5/7] Link [x64] UnrealEditor-CosmicBulletHell.lib
+     Creating library C:\Users\Tom\Documents\GitHub\Cosmic-Horror-Jam-II\CosmicBulletHell\Intermediate\Build\Win64\x64\UnrealEditor\Development\CosmicBulletHell\UnrealEditor-CosmicBulletHell.lib and object C:\Users\Tom\Documents\GitHub\Cosmic-Horror-Jam-II\CosmicBulletHell\Intermediate\Build\Win64\x64\UnrealEditor\Development\CosmicBulletHell\UnrealEditor-CosmicBulletHell.exp
+  [6/7] Link [x64] UnrealEditor-CosmicBulletHell.dll
+     Creating library C:\Users\Tom\Documents\GitHub\Cosmic-Horror-Jam-II\CosmicBulletHell\Intermediate\Build\Win64\x64\UnrealEditor\Development\CosmicBulletHell\UnrealEditor-CosmicBulletHell.suppressed.lib and object C:\Users\Tom\Documents\GitHub\Cosmic-Horror-Jam-II\CosmicBulletHell\Intermediate\Build\Win64\x64\UnrealEditor\Development\CosmicBulletHell\UnrealEditor-CosmicBulletHell.suppressed.exp
+  [7/7] WriteMetadata CosmicBulletHellEditor.target
+  Total time in Parallel executor: 34.55 seconds
+  Total execution time: 46.30 seconds
