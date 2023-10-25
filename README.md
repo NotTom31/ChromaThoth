@@ -1,67 +1,65 @@
 # Cosmic Bullet Hell
 
-Cosmic Bullet Hell is an exhilarating shoot 'em up game crafted for the 2023 Cosmic Horror Jam II. Traverse through the chilling expanses of the cosmos, facing grotesque cosmic entities with unpredictable bullet patterns. This project marries nerve-wracking gameplay with eerie, otherworldly visuals, offering a distinctive bullet hell adventure.
-
-This build was created and intended for use on Unreal Engine 5.2.1. The code is provided as is.
+Cosmic Bullet Hell is an engaging and challenging game, crafted for the 2023 Cosmic Horror Jam II. Utilizing Unreal Engine 5.2.1, this project aims to provide a seamless and thrilling gaming experience enveloped in a cosmic horror theme.
 
 ## Table of Contents
-
+- [Getting Started](#getting-started)
+- [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [Features](#features)
+- [Project Structure](#project-structure)
 - [Usage](#usage)
-- [Contribution](#contribution)
+- [Contributing](#contributing)
 - [License](#license)
-- [Acknowledgments](#acknowledgments)
+- [Acknowledgements](#acknowledgements)
 
-## Installation
+## Getting Started
 
-Ensure you have Unreal Engine 5.2.1 installed. Clone the repository and open the project using Unreal Engine:
+Follow these instructions to get the project up and running on your local machine for development and testing purposes.
 
-```bash
-git clone https://github.com/your-username/CosmicBulletHell.git
+### Prerequisites
 
-## Features
+Before diving in, ensure you have the following software installed:
 
-### Player Controller Input Manager
-Handles player controller input events and behaviors within the game project.
+- Unreal Engine 5.2.1
+- A code editor compatible with Unreal Engine such as Visual Studio
 
-Initialize Input
-Process Input
-Bind Input Actions
-Handle Jump and Fire actions
+### Installation
 
-### Enemy AI Manager
-Oversees enemy AI behaviors and bullet pattern transitions, tailored for bullet hell game dynamics.
+1. Clone the repository to your local machine using `git clone`.
+2. Navigate to the project directory and open the project using Unreal Engine.
+3. Build and compile the project within the engine to ensure everything is set up correctly.
 
-- Manage Enemies
-- Trigger Bullet Patterns
-- Transition Enemy Phases
-- Evaluate Enemy Behavior
+## Project Structure
 
+This project is organized into several custom-built managers and components, each serving distinct gameplay and UI functionalities:
 
-### Actor Health Manager
-Administers health for actors in the game, with mechanisms for registering and unregistering actors, adjusting and retrieving health values, applying damage, and healing actors.
+- `PlayerControllerInputManager`: Orchestrates player controller input events and behaviors.
+- `EnemyAIManager`: Governs enemy AI behaviors, optimized for bullet hell game scenarios.
+- `ActorHealthManager`: Oversees the health status of actors within the game.
+- `FloatingCombatTextManager`: Exhibits the damage incurred by objects in an intuitive manner.
+- `UIComponentManager`: Administers UI components, majorly the health UI.
+- `SceneAudioManager`: Coordinates audio elements ensuring an immersive auditory experience.
+- `SceneProjectileManager`: Directs projectile dynamics within the gameplay scene.
 
-- Register Actor
-- Unregister Actor
-- Set Health
-- Get Health
-- Apply Damage
-- Heal Actor
+Each of these elements is meticulously engineered and optimized to contribute to a smooth and responsive gameplay experience.
 
+## Usage
 
-##Usage
+Upon successfully setting up the project:
 
-Open the project in Unreal Engine 5.2.1, play the game in the editor to test the mechanics, or build the project to experience it on your desired platform.
+1. Open Unreal Engine and load the project.
+2. Explore the source code to understand the logic behind different gameplay and UI elements.
+3. Press `Play` within Unreal Engine to run the game and explore its features.
 
-## Contribution
+## Contributing
 
-We warmly welcome contributions! Please read CONTRIBUTING.md for details on how to contribute.
+Your contributions are most welcome! Feel free to fork the project, make your improvements, and open a pull request to propose your changes.
 
 ## License
 
-This project is shared under the MIT License - see the LICENSE.md file for specifics.
+This project is shared under the [MIT License](LICENSE), allowing for reuse with attribution.
 
-## Acknowledgments
+## Acknowledgements
 
-Heartfelt gratitude to the Unreal Engine community and the orchestrators of Cosmic Horror Jam II for kindling the inspiration for this project.
+- Heartfelt gratitude to the organizers of Cosmic Horror Jam II for sparking the inspiration for this project.
+- Unreal Engine for providing a robust and intuitive platform for game development.
