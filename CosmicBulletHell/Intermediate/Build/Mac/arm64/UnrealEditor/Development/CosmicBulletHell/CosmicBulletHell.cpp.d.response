@@ -2,6 +2,7 @@
 -pipe
 -I"."
 -I"/Users/anthony/Documents/GitHub/Cosmic-Horror-Jam-II/CosmicBulletHell/Source/CosmicBulletHell/Private"
+-I"/Users/anthony/Documents/GitHub/Cosmic-Horror-Jam-II/CosmicBulletHell/Intermediate/Build/Mac/UnrealEditor/Inc/CosmicBulletHell/UHT"
 -I"/Users/anthony/Documents/GitHub/Cosmic-Horror-Jam-II/CosmicBulletHell/Source"
 -I"Runtime/TraceLog/Public"
 -I"Runtime/Core/Public"
