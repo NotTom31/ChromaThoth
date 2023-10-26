@@ -333,6 +333,6 @@
 -std=c++17
 -fpch-validate-input-files-content
 -stdlib=libc++
-"/Users/anthony/Documents/GitHub/Cosmic-Horror-Jam-II/CosmicBulletHell/Source/CosmicBulletHell/CosmicBulletHell.cpp"
--MD -MF"/Users/anthony/Documents/GitHub/Cosmic-Horror-Jam-II/CosmicBulletHell/Intermediate/Build/Mac/arm64/UnrealEditor/Development/CosmicBulletHell/CosmicBulletHell.cpp.d"
--o "/Users/anthony/Documents/GitHub/Cosmic-Horror-Jam-II/CosmicBulletHell/Intermediate/Build/Mac/arm64/UnrealEditor/Development/CosmicBulletHell/CosmicBulletHell.cpp.o"
+"/Users/anthony/Documents/GitHub/Cosmic-Horror-Jam-II/CosmicBulletHell/Source/CosmicBulletHell/MyClass.cpp"
+-MD -MF"/Users/anthony/Documents/GitHub/Cosmic-Horror-Jam-II/CosmicBulletHell/Intermediate/Build/Mac/arm64/UnrealEditor/Development/CosmicBulletHell/MyClass.cpp.d"
+-o "/Users/anthony/Documents/GitHub/Cosmic-Horror-Jam-II/CosmicBulletHell/Intermediate/Build/Mac/arm64/UnrealEditor/Development/CosmicBulletHell/MyClass.cpp.o"
