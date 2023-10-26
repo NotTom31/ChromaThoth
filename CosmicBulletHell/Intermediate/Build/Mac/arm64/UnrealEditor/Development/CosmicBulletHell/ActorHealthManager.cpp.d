@@ -3713,9 +3713,4 @@
   /Users/anthony/Documents/GitHub/Cosmic-Horror-Jam-II/CosmicBulletHell/Source/CosmicBulletHell/Private/ActorHealthManager.cpp \
   /Users/anthony/Documents/GitHub/Cosmic-Horror-Jam-II/CosmicBulletHell/Intermediate/Build/Mac/arm64/UnrealEditor/Development/CosmicBulletHell/Definitions.CosmicBulletHell.h \
   /Users/anthony/Documents/GitHub/Cosmic-Horror-Jam-II/CosmicBulletHell/Source/CosmicBulletHell/Private/ActorHealthManager.h \
-  Runtime/Core/Public/CoreMinimal.h \
-  Runtime/Engine/Classes/GameFramework/Actor.h \
-  /Users/anthony/Documents/GitHub/Cosmic-Horror-Jam-II/CosmicBulletHell/Intermediate/Build/Mac/UnrealEditor/Inc/CosmicBulletHell/UHT/ActorHealthManager.generated.h \
-  Runtime/CoreUObject/Public/UObject/ObjectMacros.h \
-  Runtime/CoreUObject/Public/UObject/ScriptMacros.h \
-  Runtime/Engine/Classes/Engine/Engine.h
+  Runtime/Core/Public/CoreMinimal.h
