@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"/Users/anthony/Documents/GitHub/Cosmic-Horror-Jam-II/CosmicBulletHell/Source/CosmicBulletHell/CosmicBulletHell.Build.cs",
-		"/Users/anthony/Documents/GitHub/Cosmic-Horror-Jam-II/CosmicBulletHell/Source/CosmicBulletHell.Target.cs",
-		"/Users/anthony/Documents/GitHub/Cosmic-Horror-Jam-II/CosmicBulletHell/Source/CosmicBulletHellEditor.Target.cs"
+		"C:\\Users\\Tom\\Documents\\GitHub\\Cosmic-Horror-Jam-II\\CosmicBulletHell\\Source\\CosmicBulletHell\\CosmicBulletHell.Build.cs",
+		"C:\\Users\\Tom\\Documents\\GitHub\\Cosmic-Horror-Jam-II\\CosmicBulletHell\\Source\\CosmicBulletHell.Target.cs",
+		"C:\\Users\\Tom\\Documents\\GitHub\\Cosmic-Horror-Jam-II\\CosmicBulletHell\\Source\\CosmicBulletHellEditor.Target.cs"
 	],
 	"EngineVersion": "5.2.1"
 }
