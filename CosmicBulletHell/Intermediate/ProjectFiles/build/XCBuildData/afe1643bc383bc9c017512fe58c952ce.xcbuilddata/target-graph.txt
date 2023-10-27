@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+Target 'CosmicBulletHell' in project 'CosmicBulletHell'
+➜ Explicit dependency on target 'CosmicBulletHell_Build' in project 'CosmicBulletHell'
+Target 'CosmicBulletHell_Build' in project 'CosmicBulletHell' (no dependencies)

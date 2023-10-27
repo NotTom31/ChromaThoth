@@ -2,6 +2,6 @@
 	"BuildId": "25360045",
 	"Modules": 
 	{
-		"CosmicBulletHell": "UnrealEditor-CosmicBulletHell-4577.dylib"
+		"CosmicBulletHell": "UnrealEditor-CosmicBulletHell.dylib"
 	}
 }
