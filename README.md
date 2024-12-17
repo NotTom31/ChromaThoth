@@ -3,6 +3,8 @@ ChromaThoth is a top-down grid movement bullet hell made in Unreal Engine 5.2 fo
 
 # **[Play Our Game!](https://tommezzie.itch.io/chromathoth)**
 
+### **[Devlog](https://tommezzie.itch.io/chromathoth/devlog)**
+
 ### **[Gameplay Video](https://youtu.be/O7GwkMHiU3o)** (Outdated)
 
 # Credits:
